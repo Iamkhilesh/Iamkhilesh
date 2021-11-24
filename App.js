@@ -14,7 +14,7 @@ import {
 import * as ImagePicker from 'expo-image-picker';
 import { storage } from '../firebase';
 
-export default function Register() {
+export default function App() {
   const [image, setImage] = useState(
     'images/https://cdn3.vectorstock.com/i/thumb-large/32/12/default-avatar-profile-icon-vector-39013212.jpg'
   );
